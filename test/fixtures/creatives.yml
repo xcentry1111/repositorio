@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  consumo: MyString
+  publicidad: MyString
+  creacion: MyString
+  ahorro: MyString
+  justificacion: MyString
+  inicio: MyString
+
+two:
+  consumo: MyString
+  publicidad: MyString
+  creacion: MyString
+  ahorro: MyString
+  justificacion: MyString
+  inicio: MyString

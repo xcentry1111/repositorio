@@ -1,0 +1,38 @@
+<%= form_for(@creative) do |f| %>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title"><strong>Campos de la pagina</strong></h3>
+              <div class="box-tools pull-right">
+              </div><!-- /.box-tools -->
+            </div><!-- /.box-header -->
+            <div class="box-body">
+             <div class="row">
+               <div class="col-md-4"><%= f.label "consumo"%><%= f.text_area :consumo, size: "50x20", label: "consumo" %></div>
+               <div class="col-md-4"><%= f.label "publicidad"%><%= f.text_area :publicidad, size: "50x20", label: "publicidad" %></div>
+               <div class="col-md-4"><%= f.label "creacion"%><%= f.text_area :creacion, size: "50x20", label: "creacion" %></div>
+              </div><!-- /.box-body -->
+              <div class="row">
+               <div class="col-md-4"><%= f.label "Ahorro"%><%= f.text_area :ahorro, size: "50x20" %></div>
+               <div class="col-md-4"><%= f.label "justificacion"%><%= f.text_area :justificacion, size: "50x20", label: "justificacion" %></div>
+               <div class="col-md-4"><%= f.label "inicio"%><%= f.text_area :inicio, size: "50x20", label: "inicio" %></div>
+              </div><!-- /.box-body -->
+            <div class="box-footer">
+              <div class="box-tools pull-right">
+                <%= link_to "Pagina", creatives_path %> - <%= f.submit "Actualizar" %>
+              </div><!-- /.box-tools -->
+            </div><!-- box-footer -->
+          </div><!-- /.box -->
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
+<br/><br/><br/>
+
+
+
+
+
